@@ -1,0 +1,70 @@
+import {Selector} from 'testcafe';
+
+class Page {
+    constructor (){
+        this.signIn_link = Selector('a').withText('Sign in');
+        this.email_input = Selector('#email_create');
+        this.createAccount_btn = Selector('#SubmitCreate');
+        this.firstName_input = Selector('#customer_firstname');
+        this.lastName_input = Selector('#customer_lastname');
+        this.email_form = Selector ('#email');
+        this.password_input = Selector ('#passwd');
+        this.firstName_Address = Selector ('#firstname');
+        this.lastName_Address = Selector ('#lastname');
+        this.adress = Selector ('#address1');
+        this.city = Selector('#city');
+        this.state = Selector('#uniform-id_state');
+        this.opnState = Selector('#id_state > option:nth-child(6)');
+        this.zip = Selector('#postcode');
+        this.country = Selector('#id_country');
+        this.opnCountry = Selector('#id_country > option:nth-child(2)');
+        this.mobile = Selector('#phone_mobile');
+        this.adressAlias = Selector('#alias');
+        this.email_error_cuenta = Selector('#create_account_error > ol > li');
+        this.signIn_btn = Selector('#SubmitLogin > span');
+        this.signIn_error_email = Selector('#center_column > div.alert.alert-danger > ol > li');
+        this.forgotPassword_btn = Selector('#login_form > div > p.lost_password.form-group > a');
+        this.retrievePassword_btn = Selector('#form_forgotpassword > fieldset > p > button > span');
+        this.retrive_error_email = Selector('#center_column > div > div');
+        this.forgotPassword_confirmation = Selector('#center_column > div > p');
+        this.create_error = Selector('#center_column > div > p');
+        this.register_btn = Selector('#submitAccount');
+        this.signOut_link = Selector('#header > div.nav > div > div > nav > div:nth-child(2) > a');
+        this.logo_link = Selector('#header_logo > a > img');
+        this.bannerNext_btn = Selector('#homepage-slider > div > div.bx-controls.bx-has-controls-direction > div > a.bx-next');
+        this.bannerBack_btn = Selector('#homepage-slider > div > div.bx-controls.bx-has-controls-direction > div > a.bx-prev');
+        this.bannerImage2 = Selector('#homeslider > li:nth-child(3) > div');
+        this.bannerImage1 = Selector ('#homeslider > li:nth-child(2) > div');
+        this.home_banner_link = Selector('#homeslider > li');
+        this.popular_grid = Selector('#homefeatured');
+        this.bestSeller_grid = Selector('#blockbestsellers');
+        this.homePage_tabsLink = Selector('#home-page-tabs > li');
+        this.buscar_input = Selector('#search_query_top');
+        this.buscarInput_btn = Selector('#searchbox > button');
+        this.buscar_alerta = Selector('#center_column > p');
+        this.buscarResultado_msj = Selector('#center_column > h1 > span.lighter');
+        this.homeCategorias_link = Selector('#block_top_menu > ul > li');
+        this.tshirtBanner_text = Selector('#center_column > div.content_scene_cat > div > div > span');
+        this.ListaProductos_grid = Selector('#center_column > ul > li');
+        this.womanDresses_link = Selector('#categories_block_left > div > ul > li');
+        this.womanDresses_banner = Selector('#center_column > div.content_scene_cat > div > div > span');
+        this.womanBlouses_link = Selector('a').withText('Blouses');
+        this.womanBlouses_banner = Selector('#center_column > div.content_scene_cat > div > div > span');
+        this.userName_text = Selector('#header > div.nav > div > div > nav > div:nth-child(1) > a > span');
+        this.womanTops_link = Selector('#categories_block_left > div > ul > li:nth-child(1) > a');
+        this.seguirComprando_btn = Selector('#layer_cart > div.clearfix > div.layer_cart_cart.col-xs-12.col-md-6 > div.button-container > span > span');
+        this.cart_hover = Selector('a').withText('Cart');
+        this.checkOut_btn = Selector('#button_order_cart');
+        this.proceedCheckout_btn = Selector('#center_column > p.cart_navigation.clearfix > a.button.btn.btn-default.standard-checkout.button-medium');
+        this.deliveryAddress = Selector('#address_delivery > li.address_firstname.address_lastname')
+        this.proceedCheckoutAddress_btn = Selector('#center_column > form > p > button');
+        this.TermsAgreed_check = Selector('#cgv');
+        this.proceedCheckoutShipping_btn = Selector('#form > p > button');
+        this.payBank = Selector('#HOOK_PAYMENT > div:nth-child(1) > div > p > a');
+        this.payBank_text = Selector('#center_column > form > div > h3');
+        this.confirmarOrden_btn = Selector('#cart_navigation > button');
+        this.compraExitosa_msg = Selector('#center_column > div > p');
+        this.borrarArticulo_btn = Selector('#product_3_13_0_398702 > td.cart_delete.text-center > div');
+    }
+}
+export default new Page();
