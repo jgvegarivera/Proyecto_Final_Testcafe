@@ -57,7 +57,7 @@ Aquí nos encontramos con algo tan fácil como un comando el cual nos ayuda a de
 `npm install -g testcafe`<p>
 Una vez instalado comprobamos que existe con el siguiente comando:<p>
 `testcafe -v`
- Esto nos arrojara la versión de testcafe que tenemos instalada.
+ Esto nos arrojará la versión de testcafe que tenemos instalada.
   
 # Felicidades!!
 
