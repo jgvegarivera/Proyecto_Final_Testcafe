@@ -26,12 +26,12 @@ Para **Ubuntu** ejecutamos las siguientes instrucciones:
 $ sudo apt-get install curl
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ````
->**Descarga e instalación** de <a href="https://git-scm.com/downloads" rel="nofollow" _istranslated="1">Git</a> 
+>**Descarga e instalación** de <a href="https://git-scm.com/downloads" rel="nofollow" _istranslated="1">Git</a> <p>
 Para **windows**, **Mac OS** o **Ubuntu** entra al link y descarga la versión adecuada para tu sistema operativo (Recomiendo no mover nada durante la instalación, solo darle siguiente).
-
-> **Descarga e instalación** de <a href="https://code.visualstudio.com/download" rel="nofollow">Visual Studio Code</a> 
+<p>
+> **Descarga e instalación** de <a href="https://code.visualstudio.com/download" rel="nofollow">Visual Studio Code</a> <p>
 Para **windows**, **Mac OS** o **Ubuntu** entra al link y descarga la versión correcta para tu Sistema Operativo.
-    
+    <p>
 # Integrando Git a VisualStudio Code
 Si te gusta trabajar directamente de VisualStudio code sin abrir una terminal aparte de Bash, vamos a integrarlo.
 Para ellos seguiremos los siguientes pasos.
