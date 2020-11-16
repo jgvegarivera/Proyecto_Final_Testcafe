@@ -1,9 +1,9 @@
 ![](https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif)
-# TestCafe BootCamp
-Este proyecto es producto de la experiencia del curso impartido por QA Minds Labs.
+# TestCafe Proyecto Final
+Este proyecto es el examen final para poder obtener el certificado del curso impartido por QA Minds Labs.
 
 # Introducción
-> En este repositorio encontraras practicas de Javascript, Testcafe, etc. Para poder hacer uso de ellos necesitaras de alguna herramientas previas para poder ejecutarlas.
+> En este repositorio encontraras pruebas a modulos y una prueba end-to-end hechas a una pagina e-commerce de prueba. Para poder hacer uso de ellos necesitaras de alguna herramientas previas para poder ejecutarlas.
 
 # Requerimientos
 * [<a href="https://nodejs.org/en/download/" rel="nofollow">NodeJS</a>] - es un tiempo de ejecución de JavaScript basado en el motor JavaScript V8 de Chrome.
@@ -14,17 +14,24 @@ Este proyecto es producto de la experiencia del curso impartido por QA Minds Lab
 
 # Instalación de programas
 
-> **Descarga e instalación** de <a href="https://nodejs.org/en/download/" rel="nofollow">NodeJS</a> entra al link y descarga la versión "recomendada por más usuarios".<p>
-Para Mac OS debes contar con <a href="https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/">Homebrew</a> para poder ejecutar los siguientes comandos
+> **Descarga e instalación** de <a href="https://nodejs.org/en/download/" rel="nofollow">NodeJS</a> <p>
+Para **Windows** entra al link y descarga la versión "recomendada por más usuarios".<p>
+Para **Mac OS** debes contar con <a href="https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/">Homebrew</a> para poder ejecutar los siguientes comandos
 ```sh
 $ brew update
 $ brew install node
 ```
+Para **Ubuntu** ejecutamos las siguientes instrucciones:
+````sh
+$ sudo apt-get install curl
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+````
+>**Descarga e instalación** de <a href="https://git-scm.com/downloads" rel="nofollow" _istranslated="1">Git</a> 
+Para **windows**, **Mac OS** o **Ubuntu** entra al link y descarga la versión adecuada para tu sistema operativo (Recomiendo no mover nada durante la instalación, solo darle siguiente).
 
->**Descarga e instalación** de <a href="https://git-scm.com/downloads" rel="nofollow" _istranslated="1">Git</a> entra al link y descarga la versión adecuada para tu sistema operativo (Recomiendo no mover nada durante la instalación, solo darle siguiente).
-
-> **Descarga e instalación** de <a href="https://code.visualstudio.com/download" rel="nofollow">Visual Studio Code</a> entra al link y descarga la versión correcta para tu Sistema Operativo.<p>
->![](https://media.giphy.com/media/kdiLau77NE9Z8vxGSO/giphy.gif)
+> **Descarga e instalación** de <a href="https://code.visualstudio.com/download" rel="nofollow">Visual Studio Code</a> 
+Para **windows**, **Mac OS** o **Ubuntu** entra al link y descarga la versión correcta para tu Sistema Operativo.
+    
 # Integrando Git a VisualStudio Code
 Si te gusta trabajar directamente de VisualStudio code sin abrir una terminal aparte de Bash, vamos a integrarlo.
 Para ellos seguiremos los siguientes pasos.
