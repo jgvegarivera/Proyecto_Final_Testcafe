@@ -2,11 +2,9 @@ import page from "./pageObjectModel";
 import { data } from "./data";
 import { Selector } from "testcafe";
 
-fixture("Pruebas al modulo de compras").page(
-    "http://automationpractice.com/index.php"
-  );
-  
-  test("Validar agregar todos los productos de una categoria al carrito y pagarlos", async (t) => {
+fixture("Pruebas al modulo de compras")
+.page("http://automationpractice.com/index.php");
+test("Validar agregar todos los productos de una categoria al carrito y pagarlos", async (t) => {
     await t
         .click(page.signIn_link)
     await t
@@ -44,7 +42,7 @@ fixture("Pruebas al modulo de compras").page(
         .click(page.checkOut_btn);
     await t
         .expect(page.proceedCheckout_btn.visible).ok()
-         .click(page.proceedCheckout_btn);
+        .click(page.proceedCheckout_btn);
     await t
         .expect(page.deliveryAddress.visible).ok()
         .expect(page.deliveryAddress.innerText).eql(data.firstName + ' ' + data.lastName)
@@ -68,7 +66,6 @@ fixture("Pruebas al modulo de compras").page(
         .expect(page.logo_link.visible).ok()
         .click(page.logo_link);
   });
-  
   test("Validar agregar todos los productos de una categoria al carrito, eliminar 1 y comprar los restantes", async (t) => {
     await t
         .click(page.signIn_link)
